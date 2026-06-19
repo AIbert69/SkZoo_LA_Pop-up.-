@@ -1,6 +1,6 @@
 # SKZOO LA Pop-Up Gallery
 
-Static presentation gallery for the SKZOO LA Pop-Up project.
+Version 02 static presentation gallery for the SKZOO LA Pop-Up project.
 
 ## How to view locally
 
@@ -12,4 +12,4 @@ Ask Codex to keep this as a static HTML/CSS/JS gallery and improve only layout, 
 
 ## Suggested Codex prompt
 
-Build a polished responsive online gallery for this SKZOO LA Pop-Up project using the provided files. Keep the project as a simple static site unless I ask for React/Next. Use the existing images in `assets/images` and the metadata in `assets/gallery-data.js`. Preserve the sections: hero/master ISO, wide renders, detail shots, and contact sheet. Add smooth lightbox viewing, category filters, download links, and a premium dark event-presentation look. Do not rename or remove any images unless you also update `gallery-data.js`. Make it easy to deploy on Netlify, Vercel, or GitHub Pages.
+Build a polished responsive online gallery for this SKZOO LA Pop-Up project using the provided files. Keep the project as a simple static site unless I ask for React/Next. Use the existing images in `assets/images` and the metadata in `assets/gallery-data.js`. Preserve the sections: exterior hero, floor plan, wide renders, detail shots, and merchandise. Add smooth lightbox viewing, category filters, download links, and a premium dark event-presentation look. Do not rename or remove any images unless you also update `gallery-data.js`. Make it easy to deploy on Netlify, Vercel, or GitHub Pages.

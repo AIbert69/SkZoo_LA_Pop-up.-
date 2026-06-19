@@ -1,134 +1,145 @@
 window.SKZOO_GALLERY = [
-  {
-    "id": 0,
-    "title": "LA Master ISO Layout",
-    "category": "Master Plan",
-    "description": "Isometric overview of the LA pop-up layout, showing the full airport-inspired footprint.",
-    "ratio": "4:3",
-    "src": "assets/images/00-la-master-iso.png",
-    "thumb": "assets/thumbs/00-la-master-iso.jpg",
-    "width": 1448,
-    "height": 1086
-  },
-  {
-    "id": 1,
-    "title": "LA Wide Interior",
-    "category": "Wide Renders",
-    "description": "Wide interior rendering with the full SKZOO Airport pop-up environment.",
-    "ratio": "16:9",
-    "src": "assets/images/01-la-wide-interior.png",
-    "thumb": "assets/thumbs/01-la-wide-interior.jpg",
-    "width": 1672,
-    "height": 941
-  },
-  {
-    "id": 2,
-    "title": "LA Exterior Hero",
-    "category": "Wide Renders",
-    "description": "Exterior storefront angle for the LA pop-up with airport branding and retail context.",
-    "ratio": "4:3",
-    "src": "assets/images/02-la-exterior-hero.png",
-    "thumb": "assets/thumbs/02-la-exterior-hero.jpg",
-    "width": 1448,
-    "height": 1086
-  },
-  {
-    "id": 3,
-    "title": "LA Exterior Angle",
-    "category": "Wide Renders",
-    "description": "Alternate exterior storefront angle showing the branded entry and surrounding fixtures.",
-    "ratio": "4:3",
-    "src": "assets/images/03-la-exterior-angle.png",
-    "thumb": "assets/thumbs/03-la-exterior-angle.jpg",
-    "width": 1448,
-    "height": 1086
-  },
-  {
-    "id": 4,
-    "title": "LA Floor Plan",
-    "category": "Master Plan",
-    "description": "Top-down floor plan reference for the LA SKZOO Airport pop-up.",
-    "ratio": "4:3",
-    "src": "assets/images/04-la-floor-plan.png",
-    "thumb": "assets/thumbs/04-la-floor-plan.jpg",
-    "width": 1448,
-    "height": 1086
-  },
-  {
-    "id": 5,
-    "title": "LA ISO Angle",
-    "category": "Master Plan",
-    "description": "Isometric layout variation showing the route, retail moments, and airport zones.",
-    "ratio": "4:3",
-    "src": "assets/images/05-la-iso-angle.png",
-    "thumb": "assets/thumbs/05-la-iso-angle.jpg",
-    "width": 1448,
-    "height": 1086
-  },
-  {
-    "id": 6,
-    "title": "LA ISO Detail",
-    "category": "Master Plan",
-    "description": "Detailed isometric rendering of the LA pop-up experience layout.",
-    "ratio": "4:3",
-    "src": "assets/images/06-la-iso-detail.png",
-    "thumb": "assets/thumbs/06-la-iso-detail.jpg",
-    "width": 1448,
-    "height": 1086
-  },
-  {
-    "id": 7,
-    "title": "LA Merch Display",
-    "category": "Detail Shots",
-    "description": "Close detail of the branded SKZOO Airport merchandise display.",
-    "ratio": "16:9",
-    "src": "assets/images/07-la-merch-display.png",
-    "thumb": "assets/thumbs/07-la-merch-display.jpg",
-    "width": 1672,
-    "height": 941
-  },
-  {
-    "id": 8,
-    "title": "LA Apparel Rack",
-    "category": "Detail Shots",
-    "description": "Apparel rack detail with the LA pop-up retail presentation.",
-    "ratio": "16:9",
-    "src": "assets/images/08-la-apparel-rack.png",
-    "thumb": "assets/thumbs/08-la-apparel-rack.jpg",
-    "width": 1672,
-    "height": 941
-  },
-  {
-    "id": 9,
-    "title": "LA Lost & Found",
-    "category": "Detail Shots",
-    "description": "Lost and Found counter rendering with signage, props, and character moments.",
-    "ratio": "16:9",
-    "src": "assets/images/09-la-lost-found.png",
-    "thumb": "assets/thumbs/09-la-lost-found.jpg",
-    "width": 1672,
-    "height": 941
-  },
-  {
-    "id": 10,
-    "title": "LA Departures + Luggage",
-    "category": "Detail Shots",
-    "description": "Departures signage and luggage-zone detail from the LA concept renderings.",
-    "ratio": "16:9",
-    "src": "assets/images/10-la-departures-luggage.png",
-    "thumb": "assets/thumbs/10-la-departures-luggage.jpg",
-    "width": 1672,
-    "height": 941
-  },
-  {
-    "id": 11,
-    "title": "LA Queue Zone",
-    "category": "Detail Shots",
-    "description": "Queue zone rendering with themed floor mats, rope lines, and airport graphics.",
-    "ratio": "16:9",
-    "src": "assets/images/11-la-queue-zone.png",
-    "thumb": "assets/thumbs/11-la-queue-zone.jpg",
-    "width": 1672,
-    "height": 941
-  }
+    {
+        "id":  0,
+        "title":  "LA Exterior Arrival",
+        "category":  "Wide Renders",
+        "description":  "Exterior arrival moment with the full SKZOO character lineup at the LA pop-up storefront.",
+        "ratio":  "16:9",
+        "src":  "assets/images/00-la-v2-exterior-arrival.png",
+        "thumb":  "assets/thumbs/00-la-v2-exterior-arrival.jpg",
+        "width":  1672,
+        "height":  941
+    },
+    {
+        "id":  1,
+        "title":  "LA Experience Floor Plan",
+        "category":  "Master Plan",
+        "description":  "Annotated floor plan showing the complete Version 02 guest route, zones, and feature moments.",
+        "ratio":  "16:9",
+        "src":  "assets/images/01-la-v2-hero-floor-plan.png",
+        "thumb":  "assets/thumbs/01-la-v2-hero-floor-plan.jpg",
+        "width":  3344,
+        "height":  1882
+    },
+    {
+        "id":  2,
+        "title":  "Arrival Interior",
+        "category":  "Wide Renders",
+        "description":  "Primary arrival view across the Lost and Found, queue, and check-in environment.",
+        "ratio":  "16:9",
+        "src":  "assets/images/02-la-v2-arrival-interior.png",
+        "thumb":  "assets/thumbs/02-la-v2-arrival-interior.jpg",
+        "width":  1672,
+        "height":  941
+    },
+    {
+        "id":  3,
+        "title":  "Airplane Display",
+        "category":  "Wide Renders",
+        "description":  "Wide interior view featuring the SKZOO airplane display and surrounding experience zones.",
+        "ratio":  "16:9",
+        "src":  "assets/images/03-la-v2-airplane-display.png",
+        "thumb":  "assets/thumbs/03-la-v2-airplane-display.jpg",
+        "width":  1672,
+        "height":  941
+    },
+    {
+        "id":  4,
+        "title":  "Wide Interior",
+        "category":  "Wide Renders",
+        "description":  "Long interior perspective connecting merchandise, check-in, and guest circulation.",
+        "ratio":  "16:9",
+        "src":  "assets/images/04-la-v2-wide-interior.png",
+        "thumb":  "assets/thumbs/04-la-v2-wide-interior.jpg",
+        "width":  1672,
+        "height":  941
+    },
+    {
+        "id":  5,
+        "title":  "Lost and Found",
+        "category":  "Detail Shots",
+        "description":  "Lost and Found counter detail with departure graphics and SKZOO character figures.",
+        "ratio":  "16:9",
+        "src":  "assets/images/05-la-v2-lost-found.png",
+        "thumb":  "assets/thumbs/05-la-v2-lost-found.jpg",
+        "width":  1672,
+        "height":  941
+    },
+    {
+        "id":  6,
+        "title":  "Luggage Wall",
+        "category":  "Detail Shots",
+        "description":  "Character, luggage, and ticket-wall vignette within the airport experience.",
+        "ratio":  "16:9",
+        "src":  "assets/images/06-la-v2-luggage-wall.png",
+        "thumb":  "assets/thumbs/06-la-v2-luggage-wall.jpg",
+        "width":  1672,
+        "height":  941
+    },
+    {
+        "id":  7,
+        "title":  "Arrivals and Luggage",
+        "category":  "Detail Shots",
+        "description":  "Arrivals display, luggage props, and passport activation detail.",
+        "ratio":  "16:9",
+        "src":  "assets/images/07-la-v2-arrivals-luggage.png",
+        "thumb":  "assets/thumbs/07-la-v2-arrivals-luggage.jpg",
+        "width":  1672,
+        "height":  941
+    },
+    {
+        "id":  8,
+        "title":  "Check-In Queue",
+        "category":  "Detail Shots",
+        "description":  "Check-in queue with branded floor mats, stanchions, and runway window graphics.",
+        "ratio":  "16:9",
+        "src":  "assets/images/08-la-v2-check-in-queue.png",
+        "thumb":  "assets/thumbs/08-la-v2-check-in-queue.jpg",
+        "width":  1672,
+        "height":  941
+    },
+    {
+        "id":  9,
+        "title":  "Merchandise Vending",
+        "category":  "Merchandise",
+        "description":  "Illuminated merchandise vending display with apparel styling and check-in context.",
+        "ratio":  "16:9",
+        "src":  "assets/images/09-la-v2-merch-vending.png",
+        "thumb":  "assets/thumbs/09-la-v2-merch-vending.jpg",
+        "width":  1672,
+        "height":  941
+    },
+    {
+        "id":  10,
+        "title":  "Merchandise Display",
+        "category":  "Merchandise",
+        "description":  "Close-up of the illuminated product display and adjacent apparel rack.",
+        "ratio":  "16:9",
+        "src":  "assets/images/10-la-v2-merch-display.png",
+        "thumb":  "assets/thumbs/10-la-v2-merch-display.jpg",
+        "width":  1672,
+        "height":  941
+    },
+    {
+        "id":  11,
+        "title":  "Apparel Collection",
+        "category":  "Merchandise",
+        "description":  "Apparel presentation with character graphics and airport retail signage.",
+        "ratio":  "16:9",
+        "src":  "assets/images/11-la-v2-apparel.png",
+        "thumb":  "assets/thumbs/11-la-v2-apparel.jpg",
+        "width":  1672,
+        "height":  941
+    },
+    {
+        "id":  12,
+        "title":  "Queue Route Detail",
+        "category":  "Detail Shots",
+        "description":  "Guest-route detail through the branded queue with sightlines into the full pop-up.",
+        "ratio":  "16:9",
+        "src":  "assets/images/12-la-v2-queue-detail.png",
+        "thumb":  "assets/thumbs/12-la-v2-queue-detail.jpg",
+        "width":  1672,
+        "height":  941
+    }
 ];

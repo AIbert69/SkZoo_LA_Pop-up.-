@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>SKZOO LA Pop-Up Gallery - Version 01</title>
-  <meta name="description" content="Version 01 dark portfolio gallery for the SKZOO LA Pop-Up experience." />
+  <title>SKZOO LA Pop-Up Gallery - Version 02</title>
+  <meta name="description" content="Version 02 dark portfolio gallery for the SKZOO LA Pop-Up experience." />
   <style>
     :root {
       --ink: #f7fbff;
@@ -176,6 +176,7 @@
     .hero-copy {
       position: relative;
       z-index: 2;
+      min-width: 0;
     }
 
     .pill {
@@ -280,6 +281,7 @@
     .hero-visual {
       position: relative;
       z-index: 2;
+      min-width: 0;
       min-height: 465px;
       display: grid;
       place-items: center;
@@ -658,6 +660,11 @@
         padding: 42px 0 26px;
       }
 
+      .hero-copy {
+        width: 100%;
+        max-width: calc(100vw - 36px);
+      }
+
       .hero-visual {
         min-height: 260px;
         order: -1;
@@ -674,7 +681,8 @@
       }
 
       .intro {
-        max-width: none;
+        width: 100%;
+        max-width: 320px;
       }
 
       .counter {
@@ -747,7 +755,7 @@
 
     <section class="hero" id="top">
       <div class="hero-copy">
-        <div class="pill">SKZ LA <span aria-hidden="true">-&gt;</span> Version 01</div>
+        <div class="pill">SKZ LA <span aria-hidden="true">-&gt;</span> Version 02</div>
         <h1><span>SKZOO</span>LA<br />Pop-Up</h1>
         <p class="intro">
           A playful Los Angeles pop-up experience featuring SKZOO characters.
@@ -760,8 +768,8 @@
       </div>
 
       <div class="hero-visual">
-        <img src="assets/images/02-la-exterior-hero.png" alt="Exterior SKZOO LA pop-up storefront rendering" />
-        <div class="counter"><span class="cube" aria-hidden="true"></span> 03 / 12</div>
+        <img src="assets/images/00-la-v2-exterior-arrival.png" alt="Exterior SKZOO LA pop-up arrival rendering" />
+        <div class="counter"><span class="cube" aria-hidden="true"></span> 01 / 13</div>
       </div>
     </section>
 
@@ -769,7 +777,7 @@
       <button class="tab active" type="button" data-filter="All">All</button>
       <button class="tab" type="button" data-filter="Wide Renders">Spaces</button>
       <button class="tab" type="button" data-filter="Master Plan">Installations</button>
-      <button class="tab" type="button" data-filter="Merch Zone Wide">Merchandise</button>
+      <button class="tab" type="button" data-filter="Merchandise">Merchandise</button>
       <button class="tab" type="button" data-filter="Detail Shots">Details</button>
       <span class="grid-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
     </section>
@@ -779,7 +787,7 @@
     <section class="cta" id="project">
       <div class="cta-logo">SKZ<span>LA</span></div>
       <div>
-        <div class="overline">Version 01 / We are now boarding</div>
+        <div class="overline">Version 02 / We are now boarding</div>
         <h2>Los Angeles Pop-Up Experience</h2>
         <p>SKZOO Airport lands in LA</p>
       </div>
@@ -811,7 +819,7 @@
     const lightboxTitle = document.getElementById('lightboxTitle');
     const lightboxDesc = document.getElementById('lightboxDesc');
     const downloadImage = document.getElementById('downloadImage');
-    const preferredOrder = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+    const preferredOrder = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
     const images = preferredOrder
       .map(id => window.SKZOO_GALLERY.find(item => item.id === id))
       .filter(Boolean);
@@ -820,7 +828,7 @@
 
     function visibleImages(filter) {
       if (filter === 'All') return images;
-      if (filter === 'Merch Zone Wide') return images.filter(item => item.title === 'LA Merch Display' || item.title === 'LA Apparel Rack');
+
       return images.filter(item => item.category === filter);
     }
 
@@ -830,7 +838,7 @@
         <button class="card ${index === 0 ? 'large' : ''}" type="button" data-id="${item.id}" aria-label="Open ${item.title}">
           <img src="${item.thumb}" alt="${item.title}" loading="${index < 3 ? 'eager' : 'lazy'}" />
           <span class="caption">
-            <span class="num">${String(index + 2).padStart(2, '0')}</span>
+            <span class="num">${String(index + 1).padStart(2, '0')}</span>
             <span class="card-title">${item.title}</span>
           </span>
         </button>
