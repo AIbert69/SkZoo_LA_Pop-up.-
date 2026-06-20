@@ -142,4 +142,14 @@ window.SKZOO_GALLERY = [
         "width":  1672,
         "height":  941
     }
-];
+    ,{
+        "id":  13,
+        "title":  "Back Storage",
+        "category":  "Wide Renders",
+        "description":  "Back storage and retail support area with apparel racks, illuminated display, check-in queue, and central floor graphic.",
+        "ratio":  "16:9",
+        "src":  "assets/images/13-la-v2-back-storage.png",
+        "thumb":  "assets/thumbs/13-la-v2-back-storage.jpg",
+        "width":  1672,
+        "height":  941
+    }];
