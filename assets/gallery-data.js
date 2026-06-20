@@ -15,11 +15,11 @@ window.SKZOO_GALLERY = [
         "title":  "LA Experience Floor Plan",
         "category":  "Master Plan",
         "description":  "Annotated floor plan showing the complete Version 02 guest route, zones, and feature moments.",
-        "ratio":  "16:9",
-        "src":  "assets/images/01-la-v2-hero-floor-plan-revised.png",
-        "thumb":  "assets/thumbs/01-la-v2-hero-floor-plan-revised.jpg",
+        "ratio":  "3344:2028",
+        "src":  "assets/images/01-la-v2-hero-floor-plan-final.png",
+        "thumb":  "assets/thumbs/01-la-v2-hero-floor-plan-final.jpg",
         "width":  3344,
-        "height":  1882
+        "height":  2028
     },
     {
         "id":  2,
